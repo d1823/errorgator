@@ -4,6 +4,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/github/license/d1823/errorgator" alt="Project's license">
+    <img src="https://img.shields.io/github/workflow/status/d1823/errorgator/Laravel" alt="GitHub Workflow Status">
     <img src="https://img.shields.io/maintenance/yes/2021" alt="Project's maintenance status">
     <img src="https://img.shields.io/github/v/release/d1823/errorgator?sort=semver" alt="Project's latest release">
 </p>
@@ -22,10 +23,8 @@ Errorgator is a simple application monitoring alternative to some more complex p
 self-hosted ELK stack. It offers a very simple event capturing API, as well as corresponding SDKs for Monolog and
 JavaScript. It differs from other solutions in its intended use case. Its main goal isn't supporting any high-scale
 systems as other platforms are already doing it flawlessly. Instead, it tries to offer itself to developers searching
-for a simple, self-hosted application allowing them to aggregate logs from various sources and search through them via
-easy-to-use TUI. Yes, Terminal User Interface. Errorgator doesn't offer any browser UI because all browser-based solutions
-are either too lacking in features or too time-consuming to implement. Since TUI is an already solved issue, there's
-plenty of ways to make it an efficient and effective way of interaction with a program.
+for a simple, self-hosted application allowing them to aggregate logs and errors from various sources and search through
+them via an easy-to-use GUI.
 
 ## Contribution
 
